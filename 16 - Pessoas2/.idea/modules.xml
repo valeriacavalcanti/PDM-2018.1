@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/15 - Pessoas2.iml" filepath="$PROJECT_DIR$/15 - Pessoas2.iml" />
+      <module fileurl="file://F:\Dropbox\Trabalho\Cursos\Kotlin\IFPB_2018_1\Codigos\PDM-2018.1\15 - Pessoas2\Pessoas2.iml" filepath="F:\Dropbox\Trabalho\Cursos\Kotlin\IFPB_2018_1\Codigos\PDM-2018.1\15 - Pessoas2\Pessoas2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Dropbox\Trabalho\Cursos\Kotlin\IFPB_2018_1\Codigos\PDM-2018.1\15 - Pessoas2\app\app.iml" filepath="F:\Dropbox\Trabalho\Cursos\Kotlin\IFPB_2018_1\Codigos\PDM-2018.1\15 - Pessoas2\app\app.iml" />
+    </modules>
+  </component>
+</project>
