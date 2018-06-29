@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C2232020E695FE0085A1F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2231F20E695FE0085A1F8 /* AppDelegate.swift */; };
+		14C2232220E695FE0085A1F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2232120E695FE0085A1F8 /* MainViewController.swift */; };
+		14C2232520E695FE0085A1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2232320E695FE0085A1F8 /* Main.storyboard */; };
+		14C2232720E6960A0085A1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C2232620E6960A0085A1F8 /* Assets.xcassets */; };
+		14C2232A20E6960A0085A1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2232820E6960A0085A1F8 /* LaunchScreen.storyboard */; };
+		14C2233220E69B180085A1F8 /* Jogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2233120E69B180085A1F8 /* Jogo.swift */; };
+		14C2233420E69F670085A1F8 /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2233320E69F670085A1F8 /* Cadastro.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C2231C20E695FE0085A1F8 /* Vai Brasil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vai Brasil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C2231F20E695FE0085A1F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14C2232120E695FE0085A1F8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		14C2232420E695FE0085A1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C2232620E6960A0085A1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14C2232920E6960A0085A1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14C2232B20E6960A0085A1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C2233120E69B180085A1F8 /* Jogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogo.swift; sourceTree = "<group>"; };
+		14C2233320E69F670085A1F8 /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C2231920E695FE0085A1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C2231320E695FE0085A1F8 = {
+			isa = PBXGroup;
+			children = (
+				14C2231E20E695FE0085A1F8 /* Vai Brasil */,
+				14C2231D20E695FE0085A1F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C2231D20E695FE0085A1F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C2231C20E695FE0085A1F8 /* Vai Brasil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C2231E20E695FE0085A1F8 /* Vai Brasil */ = {
+			isa = PBXGroup;
+			children = (
+				14C2233720E6A0600085A1F8 /* controller */,
+				14C2233620E6A0590085A1F8 /* view */,
+				14C2233520E6A0520085A1F8 /* model */,
+				14C2231F20E695FE0085A1F8 /* AppDelegate.swift */,
+				14C2232620E6960A0085A1F8 /* Assets.xcassets */,
+				14C2232B20E6960A0085A1F8 /* Info.plist */,
+			);
+			path = "Vai Brasil";
+			sourceTree = "<group>";
+		};
+		14C2233520E6A0520085A1F8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				14C2233120E69B180085A1F8 /* Jogo.swift */,
+				14C2233320E69F670085A1F8 /* Cadastro.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		14C2233620E6A0590085A1F8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				14C2232320E695FE0085A1F8 /* Main.storyboard */,
+				14C2232820E6960A0085A1F8 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		14C2233720E6A0600085A1F8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				14C2232120E695FE0085A1F8 /* MainViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C2231B20E695FE0085A1F8 /* Vai Brasil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C2232E20E6960A0085A1F8 /* Build configuration list for PBXNativeTarget "Vai Brasil" */;
+			buildPhases = (
+				14C2231820E695FE0085A1F8 /* Sources */,
+				14C2231920E695FE0085A1F8 /* Frameworks */,
+				14C2231A20E695FE0085A1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vai Brasil";
+			productName = "Vai Brasil";
+			productReference = 14C2231C20E695FE0085A1F8 /* Vai Brasil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C2231420E695FE0085A1F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					14C2231B20E695FE0085A1F8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 14C2231720E695FE0085A1F8 /* Build configuration list for PBXProject "Vai Brasil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C2231320E695FE0085A1F8;
+			productRefGroup = 14C2231D20E695FE0085A1F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C2231B20E695FE0085A1F8 /* Vai Brasil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C2231A20E695FE0085A1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2232A20E6960A0085A1F8 /* LaunchScreen.storyboard in Resources */,
+				14C2232720E6960A0085A1F8 /* Assets.xcassets in Resources */,
+				14C2232520E695FE0085A1F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C2231820E695FE0085A1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2232220E695FE0085A1F8 /* MainViewController.swift in Sources */,
+				14C2232020E695FE0085A1F8 /* AppDelegate.swift in Sources */,
+				14C2233420E69F670085A1F8 /* Cadastro.swift in Sources */,
+				14C2233220E69B180085A1F8 /* Jogo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14C2232320E695FE0085A1F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2232420E695FE0085A1F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C2232820E6960A0085A1F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2232920E6960A0085A1F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C2232C20E6960A0085A1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C2232D20E6960A0085A1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C2232F20E6960A0085A1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vai Brasil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.joaopessoa.tsi.Vai-Brasil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C2233020E6960A0085A1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vai Brasil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.joaopessoa.tsi.Vai-Brasil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C2231720E695FE0085A1F8 /* Build configuration list for PBXProject "Vai Brasil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2232C20E6960A0085A1F8 /* Debug */,
+				14C2232D20E6960A0085A1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2232E20E6960A0085A1F8 /* Build configuration list for PBXNativeTarget "Vai Brasil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2232F20E6960A0085A1F8 /* Debug */,
+				14C2233020E6960A0085A1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C2231420E695FE0085A1F8 /* Project object */;
+}
